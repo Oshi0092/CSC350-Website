@@ -30,7 +30,7 @@ p{
 
 h1{
     flex-direction: column;
-    font-family: "Londrina Sketch", sans-serif;
+    font-family: "Londrina Sketch" ;
     color: #581845 ;
     padding: 25px 20px;
 
@@ -40,7 +40,9 @@ ul{
     color: #581845 ;
     margin: 25px;
 }
-
+li{
+    margin : 25px;
+}
 button {
     font-family: "Londrina Sketch", sans-serif;
     color: #8b8e84 ;
