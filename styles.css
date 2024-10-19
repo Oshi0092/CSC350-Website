@@ -1,12 +1,59 @@
+.londrina-sketch-regular {
+    font-family: "Londrina Sketch", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
 body {
+    font-family: "Londrina Sketch", sans-serif;
+    color: #581845 ;
     display: flex;
+    background-color:	rgb(193, 225, 193);
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
 }
+img {
+    grid-row: 1;
+    border: 3px dashed rgb(42, 14, 14);
+}
+
+p{
+    font-family: "Londrina Sketch", sans-serif;
+    color: #581845 ;
+    border-style: outset;
+    border-width: 5px   ;
+    border-color:black;
+    border-radius: 10px;
+}
+
+h1{
+    flex-direction: column;
+    font-family: "Londrina Sketch", sans-serif;
+    color: #581845 ;
+    padding: 25px 20px;
+
+}
+ul{
+    font-family: "Londrina Sketch", sans-serif;
+    color: #581845 ;
+    margin: 25px;
+}
 
 button {
-    margin: 10px;
-    padding: 10px 20px;
+    font-family: "Londrina Sketch", sans-serif;
+    color: #8b8e84 ;
+    font-size: 50px;
+    background-color: #c3a6f7;
+    margin: 25px;
+    padding: 40px 40px;
+    border-radius: 10%;
+    outline : none;
 }
+.londrina-sketch-regular {
+    font-family: "Londrina Sketch", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
